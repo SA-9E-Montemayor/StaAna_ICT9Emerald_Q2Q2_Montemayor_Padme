@@ -1,0 +1,20 @@
+body {sans-serif; background-color: #0f2a5f; background-image: url('cyberpunk.jpg'); background-size: cover;color: white; display: flex; justify-content: center;
+align-items: center; scroll-padding-top: 1000px; margin: 0; padding: 0; box-sizing: border-box;}
+.container {background-color: rgba(0, 0, 0, 0.4); padding: 30px; border-radius: 40px; max-width: 500px; width: 120%; margin-top: 70px;}
+@font-face  {font-family: 'Cham'; src: url('cham.woff') format('woff');}
+h1 {margin-bottom: 20px; text-align: center; font-family: "Cham"}
+form {display: flex; flex-direction: column; gap: 15px;}
+label {font-size: 14px;text-align: left; margin-bottom: 5px;}
+input {padding: 10px; border: 1px solid #ccc; border-radius: 5px; font-size: 14px; background: rgba(250, 250, 250, 0.12);  color: #ffffff}
+select{padding: 10px; border: 1px solid #ccc; border-radius: 5px; font-size: 14px; background: rgba(250, 250, 250, 0.12);  color: #ffffff}
+textarea {padding: 10px; border: 1px solid #ccc; border-radius: 5px; font-size: 14px; background: rgba(250, 250, 250, 0.12);  color: #ffffff}
+option {padding: 10px; border: 1px solid #ccc; border-radius: 5px; font-size: 14px; background: rgba(250, 250, 250, 0.12);  color: black}
+button {padding: 10px; background-color: #1f2eff; border: none; color: white; font-size: 16px; border-radius: 7px; cursor: pointer; }
+.checkbox {width: 40px; height: 25px;}
+.label{font-size: 14px;text-align: left; margin-bottom: 5px;}
+.navbar {background-color: black; display: flex; justify-content: center; align-items: center; color: white; padding: 10px 20px; position: fixed; top: 0; left: 0; width: 100%; z-index: 1000;}
+.navbar h1 {font-size: 24px; margin: 0;}
+.navbar ul {display: flex; list-style: none; gap: 20px; margin: 0; padding: 0; align-items: center;}
+.navbar ul li a {color: white; text-decoration: none; font-size: 16px;}
+.logo {display: flex; align-items: center; margin-right: 50px;}
+.cog {width: 40px; height: 50px; border-radius: 50%;}
